@@ -1,0 +1,108 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <display-name>Archetype Created Web Application</display-name>
+
+
+
+
+
+  <servlet>
+    <servlet-name>
+      S1
+    </servlet-name>
+    <servlet-class>
+        Servlet1
+    </servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>S1</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>
+      Basic
+    </servlet-name>
+    <servlet-class>
+      ServletBasic
+    </servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Basic</servlet-name>
+    <url-pattern>/mvnweb_war_exploded/basic</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>
+      avearge
+    </servlet-name>
+    <servlet-class>
+      ServletAverage
+    </servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>avearge</servlet-name>
+    <url-pattern>/mvnweb_war_exploded/average</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>
+      text
+    </servlet-name>
+    <servlet-class>
+      ServletText
+    </servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>text</servlet-name>
+    <url-pattern>/mvnweb_war_exploded/text</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>
+      calculate
+    </servlet-name>
+    <servlet-class>
+      ServletCalculate
+    </servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>calculate</servlet-name>
+    <url-pattern>/mvnweb_war_exploded/calculate</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>
+      test
+    </servlet-name>
+    <servlet-class>
+      ServletTest
+    </servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/mvnweb_war_exploded/test</url-pattern>
+  </servlet-mapping>
+</web-app>

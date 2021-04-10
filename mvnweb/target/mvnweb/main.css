@@ -1,0 +1,74 @@
+body {
+    background-color: azure;
+}
+.let {
+    margin: 0 auto;
+    display: flex;
+    width: 100px;
+    background-color: aqua;
+}
+
+.average{
+    display: flex;
+    justify-content: center;
+
+    background-color: aquamarine;
+
+}
+.average p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.getform {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 500px;
+    margin: auto;
+
+}
+.getform .radio {
+    width: 100px;
+    margin: auto;
+}
+.getform .number1, .getform .number2, .getform .number3, .getform p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+.getform .senddev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.radiobut {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.getformcalculate {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: azure;
+}
+.todocalculate {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+.calculatebut {
+    margin-top: 20px;
+}
+.rezult {
+    background-color: aqua;
+}
